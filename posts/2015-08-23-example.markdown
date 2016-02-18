@@ -5,7 +5,7 @@ title: Example Post
 Mauris in lorem nisl. Maecenas tempus facilisis ante, eget viverra nisl
 tincidunt et. Donec turpis lectus, mattis ac malesuada a, accumsan eu libero.
 Morbi condimentum, tortor et tincidunt ullamcorper, sem quam pretium nulla, id
-convallis lectus libero nec turpis. Proin dapibus nisi id est sodales nec
+convallis `inline_code(test)` lectus libero nec turpis. Proin dapibus nisi id est sodales nec
 ultrices tortor pellentesque. 
 
 ```python
@@ -13,11 +13,13 @@ def hello(x="World"):
     print("Hello,", x)
 ```
 
+$v(t) = v_0 + \frac{1}{2}at^2$
+
+$$\Psi(\vec{r},\tau) = \sum_{k=0}^\infty a_k\psi_k(\vec{r})e^{-E_k \tau}.$$
+
 Vivamus vel nisi ac lacus sollicitudin vulputate
 ac ut ligula. Nullam feugiat risus eget eros gravida in molestie sapien euismod.
 Nunc sed hendrerit orci. Nulla mollis consequat lorem ac blandit. Ut et turpis
 mauris. Nulla est odio, posuere id ullamcorper sit amet, tincidunt vel justo.
 Curabitur placerat tincidunt varius. Nulla vulputate, ipsum eu consectetur
 mollis, dui nibh aliquam neque, at ultricies leo ligula et arcu.
-
-

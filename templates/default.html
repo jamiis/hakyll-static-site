@@ -4,13 +4,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>My Hakyll Blog - $title$</title>
-        <link rel="stylesheet" type="text/css" href="/css/default.css" />
+        <title>Jamis Johnson - $title$</title>
+        <link href="/css/default.css" rel="stylesheet" type="text/css" />
+        <!--Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+        <!--KaTeX-->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css" />
+        <script type="text/javascript">
+            window.onload = function(){
+                var mathElements = document.getElementsByClassName("math");
+                for (var i=0; i < mathElements.length; i++)
+                {
+                    var texText = mathElements[i].firstChild
+                    katex.render(texText.data, mathElements[i])
+                }}
+        </script>
     </head>
     <body>
         <div id="header">
             <div id="logo">
-                <a href="/">My Hakyll Blog</a>
+                <a href="/">Jamis Johnson</a>
             </div>
             <div id="navigation">
                 <a href="/">Home</a>
